@@ -1,0 +1,33 @@
+@import './header.css';
+@import './banner.css';
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: nunito;    
+}
+.masthead {
+   
+    
+    margin-top: -320px;
+}
+.masthead h1 {
+    font-family: 'Varela Round';
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(rgba(200, 200, 200, 1), rgba(200, 200, 200, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  .masthead h1 {
+      font-size: 6.5rem;
+      line-height: 6.5rem;
+      letter-spacing: 0.8rem;
+    }
+    .masthead h2 {
+        color: rgb(255, 238, 0);
+        font-size: 2rem;
+        text-align: center;
+        -webkit-text-stroke-width: 1px; /* largura da borda */
+        -webkit-text-stroke-color: #000; /* cor da borda */
+    }
+  }
