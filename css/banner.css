@@ -7,3 +7,24 @@
     background-attachment: scroll;
     background-size: cover;
 }
+.masthead { 
+    margin-top: -320px;
+    text-align: center;
+}
+.masthead h1 {
+    font-family: 'Varela Round';
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+      font-size: 6.5rem;
+      /* line-height: 6.5rem; */
+      letter-spacing: 0.8rem;
+}
+.masthead h2 {
+        color: rgb(255, 238, 0);
+        font-size: 1.5rem;
+        padding: 0 10% 0 10%;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #000;
+}
