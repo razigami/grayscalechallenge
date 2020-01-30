@@ -11,11 +11,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-content: space-around;
 }
 .mountain {
-    width: 500px;
+    width: 750px;
     border-right: springgreen solid 1px;
 }
 .mttext {
-    width: 250px;
+
+    width: 350px;
+}
+
+.mttext h1 {
+    font-size: 3.5rem;
+}
+.mttext h2 {
+    font-size: 1.75rem;
 }
