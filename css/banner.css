@@ -22,8 +22,9 @@
       letter-spacing: 0.8rem;
 }
 .masthead h2 {
-        color: rgb(255, 238, 0);
-        font-size: 1.5rem;
+        color: rgb(255, 115, 0);
+        font-size: 2rem;
+        text-align: center;
         padding: 0 10% 0 10%;
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: #000;

@@ -1,14 +1,31 @@
 .images {
-    height: 400px;
+    height: 600px;
     width: 100%;
     padding-top: 10rem;
-    background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+    background: linear-gradient(to bottom, #161616 0%, rgba(8, 8, 8, 0.9) 75%, rgba(8, 8, 8, 0.5));
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
     position: absolute;
-
 }
 .ipad {
     position: absolute;
     height: 200px;
     bottom: 1px;
-    left: 25%;
+    right: 25%;
+}
+.abouttxt {
+    text-align: center;
+    height: 250px;
+    width: 450px;
+    margin: 0px 200px 200px 200px;
+}
+.abouttxt h1 {
+    font-size: 3.5rem;
+}
+.abouttxt p {
+    font-size: 1.75rem;
 }

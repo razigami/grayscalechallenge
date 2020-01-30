@@ -30,9 +30,7 @@
     /* z-index: 1; */
 }
 .barra{
-    /* background-color: #333; */
-    height: 25%;
-    width: 100px;
+    width: 150px;
     right: 0;
     position: absolute;
     transition: all .9s linear;
