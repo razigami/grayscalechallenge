@@ -1,21 +1,20 @@
+/* box 1 */
 .project {
     margin-top: 800px;
     width: 100%;
     height: 400px;
     background-color: white;
-
 }
 
 .flexProject {
-    padding-top: 50px;
+    /* padding-top: 50px; */
     display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-around;
 }
-.mountain {
-    width: 750px;
-    border-right: springgreen solid 1px;
+.mountain{
+    width: 730px;
 }
 .mttext {
 
@@ -27,4 +26,36 @@
 }
 .mttext h2 {
     font-size: 1.75rem;
+}
+
+/* box 2 */
+.moreProject {
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+
+}
+.flexMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mmountain {
+    width: 555px;
+    height: 396px;
+}
+
+.container {
+    width: 555px;
+    height: 396px;
+    color: white;
+    background-color: black;
+}
+.container h1 {
+    font-size: 3.5rem;
 }
