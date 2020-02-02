@@ -12,12 +12,14 @@
     align-items: center;
     justify-content: center;
     justify-content: space-around;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 .mountain{
     width: 730px;
 }
 .mttext {
-
+    margin-left: 50px;
     width: 350px;
 }
 
@@ -37,25 +39,60 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 
 }
 .flexMore {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 .mmountain {
     width: 555px;
     height: 396px;
 }
 
-.container {
+.containerone {
+    display: flex;
     width: 555px;
     height: 396px;
     color: white;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+
     background-color: black;
+    
 }
-.container h1 {
+.containerone h1 {
+    margin-left: 50px;
     font-size: 3.5rem;
+}
+.containerone h2 {
+    margin-left: 50px;
+    font-size: 1.75rem;
+    border-bottom: turquoise 2px solid;
+}
+.containertwo {
+    display: flex;
+    width: 555px;
+    height: 396px;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+    background-color: black;
+    
+}
+.containertwo h1 {
+    margin-right: 50px;
+    font-size: 3.5rem;
+}
+.containertwo h2 {
+    margin-right: 50px;
+    font-size: 1.75rem;
+    border-bottom: turquoise 2px solid;
 }
