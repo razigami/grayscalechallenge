@@ -11,21 +11,25 @@
     justify-content: space-around;
     position: absolute;
 }
+
 .ipad {
     position: absolute;
     height: 200px;
     bottom: 1px;
     right: 25%;
 }
+
 .abouttxt {
     text-align: center;
     height: 250px;
     width: 450px;
     margin: 0px 200px 200px 200px;
 }
+
 .abouttxt h1 {
     font-size: 3.5rem;
 }
+
 .abouttxt p {
     font-size: 1.75rem;
 }

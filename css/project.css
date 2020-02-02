@@ -1,4 +1,5 @@
 /* box 1 */
+
 .project {
     margin-top: 800px;
     width: 100%;
@@ -15,9 +16,11 @@
     margin-right: 10%;
     margin-left: 10%;
 }
-.mountain{
+
+.mountain {
     width: 730px;
 }
+
 .mttext {
     margin-left: 50px;
     width: 350px;
@@ -26,11 +29,13 @@
 .mttext h1 {
     font-size: 3.5rem;
 }
+
 .mttext h2 {
     font-size: 1.75rem;
 }
 
 /* box 2 */
+
 .moreProject {
     width: 100%;
     height: 800px;
@@ -40,8 +45,8 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
 }
+
 .flexMore {
     display: flex;
     justify-content: center;
@@ -50,6 +55,7 @@
     margin-right: 5%;
     margin-left: 5%;
 }
+
 .mmountain {
     width: 555px;
     height: 396px;
@@ -63,19 +69,20 @@
     justify-content: center;
     flex-direction: column;
     text-align: left;
-
     background-color: black;
-    
 }
+
 .containerone h1 {
     margin-left: 50px;
     font-size: 3.5rem;
 }
+
 .containerone h2 {
     margin-left: 50px;
     font-size: 1.75rem;
     border-bottom: turquoise 2px solid;
 }
+
 .containertwo {
     display: flex;
     width: 555px;
@@ -85,12 +92,13 @@
     flex-direction: column;
     text-align: right;
     background-color: black;
-    
 }
+
 .containertwo h1 {
     margin-right: 50px;
     font-size: 3.5rem;
 }
+
 .containertwo h2 {
     margin-right: 50px;
     font-size: 1.75rem;

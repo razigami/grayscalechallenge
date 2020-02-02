@@ -1,14 +1,16 @@
 .bigFooter {
     margin-top: 200px;
     width: 100%;
-    height: 1000px;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../assets/bg-signup.jpg");
+    height: 800px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/bg-signup.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
     display: flex;
 }
+
 /* subscribe */
+
 .sub {
     margin-top: 200px;
     width: 100%;
@@ -17,38 +19,47 @@
     justify-content: flex-start;
     flex-direction: column;
 }
+
 .send {
     width: 50px;
 }
+
 .subs {
     color: white;
     font-size: 4rem;
 }
+
 .form {
     margin-top: 20px;
 }
+
 .email {
     text-align: justify;
     width: 500px;
     height: 50px;
     border-radius: 5%;
 }
+
 .btnEmail {
     width: 100px;
     color: white;
     border-radius: 5px;
-    border-color:  #4F837F;
+    border-color: #4F837F;
     background-color: #4F837F;
     height: 50px;
 }
+
 /* contact */
+
 .flexContact {
     margin-top: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: flex-end;
 }
-.contact { 
+
+.contact {
     text-align: center;
     margin-top: 40px;
     margin-left: 30px;
@@ -56,14 +67,32 @@
     width: 390px;
     height: 205px;
     border-radius: 5px;
-    border-bottom: #4F837F solid 4px;
+    border-bottom: #4F837F solid 8px;
 }
+
 .contact h1 {
     color: black;
     font-size: 4rem;
 }
+
 .contact h2 {
     color: black;
     font-size: 2rem;
     margin-top: 50PX;
+}
+
+/* social media */
+
+.social {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social img {
+    width: 100px;
+    margin-left: 10px;
 }

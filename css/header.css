@@ -7,6 +7,7 @@
     color: rgba(209, 162, 162, 0.3);
     justify-content: space-between;
 }
+
 .title {
     font-family: 'Varela Round';
     letter-spacing: 0.8rem;
@@ -22,6 +23,7 @@
 #check {
     display: none;
 }
+
 .icone {
     cursor: pointer;
     padding: 15px;
@@ -29,7 +31,8 @@
     position: absolute;
     /* z-index: 1; */
 }
-.barra{
+
+.barra {
     width: 150px;
     right: 0;
     position: absolute;
@@ -38,22 +41,25 @@
     right: -400px;
     display: none;
 }
+
 .open {
     width: 100%;
     position: absolute;
     top: 60px;
 }
+
 .link {
     background-color: #494950;
     border-bottom: white 2px solid;
     color: white;
     transition: all .5s linear;
 }
+
 .link:hover {
     background-color: #050599;
 }
-#check:checked ~ .barra {
+
+#check:checked~.barra {
     transform: translateX(-450px);
     display: initial;
 }
-
