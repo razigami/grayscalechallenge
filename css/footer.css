@@ -1,7 +1,7 @@
 .bigFooter {
     margin-top: 200px;
     width: 100%;
-    height: 1300px;
+    height: 1000px;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../assets/bg-signup.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -20,7 +20,7 @@
 .send {
     width: 50px;
 }
-.sub div {
+.subs {
     color: white;
     font-size: 4rem;
 }
@@ -42,11 +42,28 @@
     height: 50px;
 }
 /* contact */
-
-.contact {
+.flexContact {
+    margin-top: 50px;
     display: flex;
-    color: black;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contact { 
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 30px;
     background-color: #ffffff;
     width: 390px;
     height: 205px;
+    border-radius: 5px;
+    border-bottom: #4F837F solid 4px;
+}
+.contact h1 {
+    color: black;
+    font-size: 4rem;
+}
+.contact h2 {
+    color: black;
+    font-size: 2rem;
+    margin-top: 50PX;
 }
